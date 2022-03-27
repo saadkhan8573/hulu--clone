@@ -1,0 +1,16 @@
+.header::-webkit-scrollbar {
+    display: none;
+}
+.header{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.header__icon > p{
+    display: none;
+}
+.header__icon:hover > p{
+    display: inline-flex;
+}
+.active__header--icon > p {
+    display: inline-flex!important;
+}

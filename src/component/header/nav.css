@@ -1,0 +1,7 @@
+.nav::-webkit-scrollbar {
+    display: none;
+}
+.nav{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
